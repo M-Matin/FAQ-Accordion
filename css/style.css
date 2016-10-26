@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'tahoma','san-serif';
+  color: #666;
+  font-size: 16px;
+  background: #f9f9f9;
+  line-height: 1.6em;
+}
