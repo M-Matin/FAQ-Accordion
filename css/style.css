@@ -1,12 +1,22 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-body{
+body {
   font-family: 'tahoma','san-serif';
   color: #666;
   font-size: 16px;
   background: #f9f9f9;
   line-height: 1.6em;
+}
+
+ul,li {
+  list-style: none;
+}
+
+#container {
+  width: 60%;
+  margin: 30px auto;
+  overflow: auto;
 }
