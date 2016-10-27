@@ -10,7 +10,9 @@ $(document).ready(function(){
     //this refer to question in any list which I select in prev line
     //.next is selecting anything after every question in any list, which here is targetting answers (li.a)
     $(this).next()
-    .slideToggle(speed);
+    .slideToggle(speed)
+    .siblings('li.a')
+    .slideUp()
 
   });
 });
