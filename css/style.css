@@ -47,5 +47,6 @@ h1 {
 }
 
 .faq li.a{
-  
+  background: #ddd;
+  display: none;
 }
