@@ -50,3 +50,9 @@ h1 {
   background: #ddd;
   display: none;
 }
+
+@media (max-width: 800px){
+  #container {
+    width: 60%;
+  }
+}
